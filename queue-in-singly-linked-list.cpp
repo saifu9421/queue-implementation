@@ -13,7 +13,6 @@ using namespace std;
       class myQueue{
          public:
           Node*head = NULL;
-           
            void push(int val){
               Node *newNode = new Node(val);
                if(head == NULL){
